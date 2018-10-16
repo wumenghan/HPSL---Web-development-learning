@@ -42,6 +42,7 @@ Modify `package.json` file and add the following lines into `scripts` attribute.
 Copy `skeleton/server.py`, `skeleton/start-client.js` and put them to your `YOUR_PROJET_NAME` directory.
 
 Once you finish these settings, your directory structure will be like this:
+```
 YOUR_PROJET_NAME
 ├── client
 ├── node_modules
@@ -49,6 +50,7 @@ YOUR_PROJET_NAME
 ├── package-lock.json
 ├── server.py
 └── start-client.js
+```
 
 ## Test it locally. (Development phase)
 During development phase, we will run the code locally. 
@@ -60,8 +62,8 @@ npm start
 Ideally, your browser will pop up your app automatically.
 
 ## Test it on hci server. (Production phase)
-You will run your app on server only when your app is ready for production, meaning that your app is ready to go public. 
-Sync your file to the server. 
+You will run your app on server only when your app is ready for production, meaning that your app is ready to go public. <br>
+Sync your file to the server and run this command. 
 ```bash
 cd client && npm run build
 ```
